@@ -22,7 +22,7 @@ namespace HarishPortfolio.Models
         public string Tagline { get; set; } = "Building robust Windows & Web applications with clean, scalable code.";
         public string Email { get; set; } = "ragoluhari1999@email.com";
         public string GitHub { get; set; } = "https://github.com/Hari-320";
-        public string LinkedIn { get; set; } = "https://linkedin.com/in/haribabu";
+        public string LinkedIn { get; set; } = "https://www.linkedin.com/in/hari-babu-186359397";
         public string Location { get; set; } = "India";
         public string About { get; set; } = "I'm a .NET Developer with strong experience in WinForms desktop applications, now expanding into modern ASP.NET Core web development. I enjoy building user-friendly, performant, and maintainable software solutions across domains including finance, surveillance, and industrial automation.";
 
