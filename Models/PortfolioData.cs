@@ -21,6 +21,7 @@ namespace HarishPortfolio.Models
         public string Role { get; set; } = ".NET Developer";
         public string Tagline { get; set; } = "Building robust Windows & Web applications with clean, scalable code.";
         public string Email { get; set; } = "ragoluhari1999@email.com";
+
         public string GitHub { get; set; } = "https://github.com/Hari-320";
         public string LinkedIn { get; set; } = "https://www.linkedin.com/in/hari-babu-186359397";
         public string Location { get; set; } = "India";
