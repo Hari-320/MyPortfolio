@@ -60,7 +60,16 @@ namespace HarishPortfolio.Models
                 Description = "An advanced dual-camera imaging application that synchronises two camera feeds for industrial inspection or scanning use cases. Supports live preview, snapshot capture, and image processing.",
                 Tech = "C# · WinForms · DirectShow · OpenCV · USB SDK",
                 Image = "/images/polyx.jpg"
-            }
+            },
+
+            new Project
+             {
+                Name = "Stress Detection Through Speech Analysis",
+                Category = "ML / AI",
+                Description = "A speech-based stress and emotion detection system using Machine Learning and Deep Learning. Analyzes audio signals, extracts speech features (MFCC, FFT, Spectrograms), and predicts emotional states from voice recordings using Wav2Vec2-based models integrated into a .NET application via ONNX Runtime.",
+                Tech = "C# · ML.NET · ONNX Runtime · Python · Hugging Face · Google Colab · Audio Signal Processing",
+                Image = "/images/stress.jpg"
+           }
         };
 
         public List<Skill> Skills { get; set; } = new()
