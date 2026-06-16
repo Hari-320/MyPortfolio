@@ -31,19 +31,19 @@ namespace HarishPortfolio.Models
         {
             new Project
             {
-                Name = "BFT",
-                Category = "Finance",
-                Description = "A robust financial tracking and reporting system built with .NET WinForms. Handles bulk financial transactions, generates reports, and provides real-time data insights for business decision-making.",
-                Tech = "C# · WinForms · SQL Server · Crystal Reports",
-                Image = "/images/bft.jpg"
+                Name = "BFT — Brain Function Therapy",
+              Category = "NeuroHealth / Cognitive",
+              Description = "A therapeutic brain-training application designed to reduce cognitive disorders through interactive exercises using letters, images, alphabets, and audio stimuli. Developed the N-Back Test module with 3 difficulty levels, each driven by configurable text files. Application parameters are loaded dynamically via a config INI file for easy setup. Features include a result scoring board, session tracking per module, cumulative reports, graphs, and printable reports. Supports both Admin and Subject (patient) management with role-based access.",
+              Tech = "VB.NET · .NET Framework · WinForms · Visual Studio 2015 · INI Config · Crystal Reports",
+              Image = "/images/BFT.jpeg"
             },
             new Project
             {
-                Name = "TVNS",
-                Category = "Surveillance",
-                Description = "A video and network surveillance management system. Enables monitoring, recording, and playback of camera feeds with alert management and user access control.",
-                Tech = "C# · WinForms · DirectShow · SQL Server",
-                Image = "/images/tvns.jpg"
+             Name = "TVNS",
+             Category = "Neuro-Medical Device",
+             Description = "Led full application revamp from legacy codebase to modern C# architecture — identifying and resolving critical minor and major bugs across the system. Upgraded the existing WinForms application to the latest version with advanced feature enhancements. Integrated real-time hardware communication using FTDI USB interface, enabling live data capture and display directly on screen. Worked closely with clients to gather requirements, collect feedback, and deliver tailored solutions through direct interaction and iterative development.",
+             Tech = "C# · WinForms · Visual Studio 2015 · FTDI · USB Interface · Real-Time Hardware Integration",
+             Image = "/images/tvns.png"
             },
             new Project
             {
@@ -75,11 +75,11 @@ namespace HarishPortfolio.Models
         public List<Skill> Skills { get; set; } = new()
         {
             new Skill { Name = "C# / .NET", Level = 90 },
-            new Skill { Name = "WinForms", Level = 88 },
-            new Skill { Name = "SQL Server", Level = 82 },
-            new Skill { Name = "ASP.NET Core", Level = 55 },
+            new Skill { Name = "WinForms", Level = 95 },
+            new Skill { Name = "SQL Server", Level = 70 },
+            new Skill { Name = "ASP.NET Core", Level = 25 },
             new Skill { Name = "HTML / CSS", Level = 65 },
-            new Skill { Name = "JavaScript", Level = 50 },
+            new Skill { Name = "JavaScript", Level = 0 },
             new Skill { Name = "Git & GitHub", Level = 70 },
         };
     }
