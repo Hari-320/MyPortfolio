@@ -51,7 +51,7 @@ namespace HarishPortfolio.Models
                 Category = "Industrial",
                 Description = "A business intelligence and industrial system designed to automate workflows, track production metrics, and generate compliance reports for manufacturing environments.",
                 Tech = "C# · .NET · WinForms · SSRS · SQL Server",
-                Image = "/images/bis.jpg"
+                Image = "/images/BIS.jpeg"
             },
             new Project
             {
@@ -68,8 +68,30 @@ namespace HarishPortfolio.Models
                 Category = "ML / AI",
                 Description = "A speech-based stress and emotion detection system using Machine Learning and Deep Learning. Analyzes audio signals, extracts speech features (MFCC, FFT, Spectrograms), and predicts emotional states from voice recordings using Wav2Vec2-based models integrated into a .NET application via ONNX Runtime.",
                 Tech = "C# · ML.NET · ONNX Runtime · Python · Hugging Face · Google Colab · Audio Signal Processing",
-                Image = "/images/stress.jpg"
-           }
+                Image = "/images/ML_Stress_Detetcion.jpg"
+           },
+
+
+
+            new Project
+            {
+            Name = "Hardware Shutdown Utility",
+           Category = "System Utility",
+           Description = "Developed a lightweight utility application to safely shut down hardware devices based on client and internal requirements. Supports both Manual and Automatic shutdown modes without powering off the host system. The application identifies connected hardware devices, verifies their status, and triggers an immediate shutdown when required. Configuration-driven design using config files and command-line arguments for flexible deployment.",
+           Tech = "C# · Console Application · SSH · Multithreading · Command Line",
+           Image = "/images/ML_Stress_Detetcion.jpg"
+            },
+
+           new Project
+           {
+         Name = "Multi Video Recording System",
+         Category = "Enterprise Desktop Application",
+         Description = "Designed and developed a complete multi-video recording and subject management system from scratch. Implemented a 3-tier architecture consisting of Data Access Layer, Business Layer, and Entity Layer. Features include user management, case management, subject management, session handling, recording management, activity logging, error tracking, and audit trails. Utilized MDB database for data storage and integrated multiple multimedia technologies for recording and streaming.",
+         Tech = "C# · WinForms · LibVLCSharp · FFmpeg · MediaMTX· VLC · MDB Database· Telerik UI · CoreUI · Siticone UI",
+         Image = "/images/ML_Stress_Detetcion.jpg"
+           },
+
+
         };
 
         public List<Skill> Skills { get; set; } = new()
