@@ -31,7 +31,7 @@ namespace HarishPortfolio.Models
         {
             new Project
             {
-                Name = "BFT — Brain Function Therapy",
+              Name = "BFT — Brain Function Therapy",
               Category = "NeuroHealth / Cognitive",
               Description = "A therapeutic brain-training application designed to reduce cognitive disorders through interactive exercises using letters, images, alphabets, and audio stimuli. Developed the N-Back Test module with 3 difficulty levels, each driven by configurable text files. Application parameters are loaded dynamically via a config INI file for easy setup. Features include a result scoring board, session tracking per module, cumulative reports, graphs, and printable reports. Supports both Admin and Subject (patient) management with role-based access.",
               Tech = "VB.NET · .NET Framework · WinForms · Visual Studio 2015 · INI Config · Crystal Reports",
@@ -45,13 +45,11 @@ namespace HarishPortfolio.Models
              Tech = "C# · WinForms · Visual Studio 2015 · FTDI · USB Interface · Real-Time Hardware Integration",
              Image = "/images/tvns.png"
             },
-            new Project
-            {
-                Name = "BIS",
-                Category = "Industrial",
-                Description = "A business intelligence and industrial system designed to automate workflows, track production metrics, and generate compliance reports for manufacturing environments.",
-                Tech = "C# · .NET · WinForms · SSRS · SQL Server",
-                Image = "/images/BIS.jpeg"
+            new Project { Name = "BIS (Bispectral Index Monitoring System)", 
+                Category = "Medical Device / Neuro-Medical", 
+                Description = "A clinical monitoring application for the Bispectral Index (BIS) system used to assess a patient's level of consciousness during anesthesia. The application acquires and displays real-time physiological parameters including EEG waveforms, spectrogram, SpO₂, heart rate, and BIS score, providing healthcare professionals with continuous patient monitoring and analysis.",
+                Tech = "C# · .NET · WinForms · Medical Device Integration · Signal Processing ",
+                Image = "/images/BIS.jpg" 
             },
             new Project
             {
@@ -76,19 +74,19 @@ namespace HarishPortfolio.Models
             new Project
             {
             Name = "Hardware Shutdown Utility",
-           Category = "System Utility",
-           Description = "Developed a lightweight utility application to safely shut down hardware devices based on client and internal requirements. Supports both Manual and Automatic shutdown modes without powering off the host system. The application identifies connected hardware devices, verifies their status, and triggers an immediate shutdown when required. Configuration-driven design using config files and command-line arguments for flexible deployment.",
-           Tech = "C# · Console Application · SSH · Multithreading · Command Line",
-           Image = "/images/ML_Stress_Detetcion.jpg"
+            Category = "System Utility",
+            Description = "Developed a lightweight utility application to safely shut down hardware devices based on client and internal requirements. Supports both Manual and Automatic shutdown modes without powering off the host system. The application identifies connected hardware devices, verifies their status, and triggers an immediate shutdown when required. Configuration-driven design using config files and command-line arguments for flexible deployment.",
+            Tech = "C# · Console Application · SSH · Multithreading · Command Line",
+            Image = "/images/ML_Stress_Detetcion.jpg"
             },
 
            new Project
            {
-         Name = "Multi Video Recording System",
-         Category = "Enterprise Desktop Application",
-         Description = "Designed and developed a complete multi-video recording and subject management system from scratch. Implemented a 3-tier architecture consisting of Data Access Layer, Business Layer, and Entity Layer. Features include user management, case management, subject management, session handling, recording management, activity logging, error tracking, and audit trails. Utilized MDB database for data storage and integrated multiple multimedia technologies for recording and streaming.",
-         Tech = "C# · WinForms · LibVLCSharp · FFmpeg · MediaMTX· VLC · MDB Database· Telerik UI · CoreUI · Siticone UI",
-         Image = "/images/ML_Stress_Detetcion.jpg"
+          Name = "Multi Video Recording System",
+          Category = "Enterprise Desktop Application",
+          Description = "Designed and developed a complete multi-video recording and subject management system from scratch. Implemented a 3-tier architecture consisting of Data Access Layer, Business Layer, and Entity Layer. Features include user management, case management, subject management, session handling, recording management, activity logging, error tracking, and audit trails. Utilized MDB database for data storage and integrated multiple multimedia technologies for recording and streaming.",
+          Tech = "C# · WinForms · LibVLCSharp · FFmpeg · MediaMTX· VLC · MDB Database· Telerik UI · CoreUI · Siticone UI",
+          Image = "/images/ML_Stress_Detetcion.jpg"
            },
 
 
